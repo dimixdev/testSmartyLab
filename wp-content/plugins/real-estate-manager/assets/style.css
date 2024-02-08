@@ -1,0 +1,41 @@
+
+
+.real-estate-manager .group-fields{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.real-estate-manager .group-fields .cell{
+	display: block;
+}
+
+.real-estate-manager .erm-but-search{
+	width: 100%;
+}
+
+.real-estate-manager .erm-post-list{
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	margin: 15px 0px;
+}
+
+.real-estate-manager .erm-post-list .item{
+	font-size: 12px;
+	width: 200px;
+	margin: 5px;
+	border: solid 1px #ddd;
+	border-radius: 5px;
+	padding: 4px;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3); 
+}
+
+.real-estate-manager .erm-post-list .item:hover{
+	background: linear-gradient(to top, #e9e9e9, #fff);
+}
+
+.real-estate-manager  .erm-pagination{
+	display: flex;
+	justify-content: center;
+}
